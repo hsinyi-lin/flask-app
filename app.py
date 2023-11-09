@@ -14,5 +14,9 @@ def num_page():
     return str(num)
 
 
+@app.route('/welcome')
+def welcome_page():
+    return 'Welcome Page'
+
 if __name__ == '__main__':
     app.run()
