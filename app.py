@@ -14,5 +14,10 @@ def num_page():
     return str(num)
 
 
+@app.route('/detail')
+def detail_page():
+    return 'Detail Page'
+
+
 if __name__ == '__main__':
     app.run()
